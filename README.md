@@ -1,6 +1,6 @@
 # vietnamese delight
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/11f04c8f-7562-4af0-84a7-305b5df19062/deploy-status)](https://app.netlify.com/sites/vietnamese-delight/deploys)
+![Vercel](http://therealsujitk-vercel-badge.vercel.app/?app=vietnamese-delight&style=for-the-badge&logo=none)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
