@@ -1,3 +1,7 @@
+# vietnamese delight
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/11f04c8f-7562-4af0-84a7-305b5df19062/deploy-status)](https://app.netlify.com/sites/vietnamese-delight/deploys)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
