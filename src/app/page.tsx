@@ -1,4 +1,3 @@
-import Image from "next/image";
 import RootLayout from "./layout";
 import RestaurantTitle from "./RestaurantTitle";
 import MenuList from "./MenuList";
