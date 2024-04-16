@@ -1,4 +1,3 @@
-import RootLayout from "../app/layout";
 import MenuList from "../components/MenuList";
 import {
   all_day_breakfast__croissant_sandwiches,
@@ -17,7 +16,7 @@ import {
 
 export default function Home() {
   return (
-    <RootLayout>
+    <>
       <MenuList menuSection="Appetizers" menuItems={appetizers} />
       <MenuList menuSection="Pho" menuItems={pho} />
       <MenuList
@@ -42,6 +41,6 @@ export default function Home() {
       />
       <MenuList menuSection="Drinks" menuItems={drinks} />
       <MenuList menuSection="Dessert" menuItems={dessert} />
-    </RootLayout>
+    </>
   );
 }
