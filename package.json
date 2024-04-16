@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint && prettier --write ./src"
+    "lint": "next lint && prettier --write **/*.tsx **/*.ts **/*.js **/*.json **/*.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^1.2.2",
@@ -24,6 +24,7 @@
     "eslint-config-prettier": "^9.1.0",
     "postcss": "^8",
     "prettier": "3.2.5",
+    "prettier-plugin-organize-imports": "^3.2.4",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
