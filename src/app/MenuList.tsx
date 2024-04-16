@@ -29,12 +29,16 @@ export default function MenuList({ menuSection, menuItems }: MenuListProps) {
             <div key={menuItem.name} className="bg-gray-100 p-4">
               <div className="flex items-center">
                 <div className="mr-4 overflow-hidden">
-                  <Image
-                    src={menuItem.imageSrc}
-                    alt={menuItem.name}
-                    width={100}
-                    height={100}
-                  />
+                  {menuItem.imageSrc ? (
+                    <Image
+                      src={menuItem.imageSrc}
+                      alt={menuItem.name}
+                      width={100}
+                      height={100}
+                    />
+                  ) : (
+                    <div className="bg-gray-200 w-20 h-20" />
+                  )}
                 </div>
                 <div className="text-left">
                   <span className="block text-lg font-bold">
