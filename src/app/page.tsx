@@ -28,6 +28,16 @@ export default function Home() {
           <h2 className="text-xl font-bold mb-4">
             <Link
               target="_blank"
+              href="https://www.yelp.com/biz/vietnamese-delight-los-angeles-2"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              Yelp
+            </Link>
+          </h2>
+          <h2 className="text-xl font-bold mb-4">
+            <Link
+              target="_blank"
               href="https://www.ubereats.com/store/vietnamese-delight-358-w-38th-st/5qOZv-i2RL6G2blPIkGCAw?diningMode=DELIVERY"
               rel="noopener noreferrer"
               className="hover:underline"
