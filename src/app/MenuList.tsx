@@ -9,10 +9,10 @@ interface MenuListProps {
 export default function MenuList({ menuSection, menuItems }: MenuListProps) {
   return (
     <div className="text-center">
-      <h3 className="text-xl font-bold mb-4">{menuSection}</h3>
+      <h3 className="text-xl font-bold my-4">{menuSection}</h3>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:text-left">
         {menuItems.map((menuItem) => (
-          <div key={menuItem.id} className="bg-gray-100 p-4">
+          <div key={menuItem.name} className="bg-gray-100 p-4">
             <div className="flex items-center">
               <div className="mr-4 overflow-hidden">
                 <Image
