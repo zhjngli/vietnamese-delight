@@ -29,179 +29,179 @@ export const featured_items = [
   {
     name: "Pho - Beef",
     price: 15.95,
-    imageSrc: "",
+    imageSrc: "/small/pho_beef.jpeg",
   },
   {
     name: "Chef's Special Flaming Pho Beef",
     price: 16.95,
-    imageSrc: "",
+    imageSrc: "/flaming_pho_beef.jpeg",
   },
   {
     name: "Spring Rolls - Grilled Shrimp - 4 Rolls",
     price: 12.95,
-    imageSrc: "",
+    imageSrc: "/spring_roll_grilled_shrimp.jpeg",
   },
   {
     name: "Banh Mi -  Grilled Pork",
     price: 9.99,
-    imageSrc: "",
+    imageSrc: "/small/banhmi_grilled_pork.jpeg",
   },
   {
     name: "Pho - Boneless Chicken",
     price: 15.95,
-    imageSrc: "",
+    imageSrc: "/pho_chicken_2.jpeg",
   },
   {
     name: "Large Thai Iced Tea (24oz)",
     price: 6.45,
-    imageSrc: "",
+    imageSrc: "/thai_iced_tea.jpeg",
   },
   {
     name: "Vermicelli - Combination 2 choices of meat + Pork Egg Roll",
     price: 17.45,
-    imageSrc: "",
+    imageSrc: "/small/vermicelli_2_meat_pork_egg_roll.jpeg",
   },
   {
     name: "Chef's Special Flaming Pho Chicken",
     price: 16.95,
-    imageSrc: "",
+    imageSrc: "/flaming_pho_chicken.jpeg",
   },
   {
     name: "Spring Rolls - Grilled Teriyaki Chicken - 4 Rolls",
     price: 12.95,
-    imageSrc: "",
+    imageSrc: "/spring_roll_teriyaki_chicken.jpeg",
   },
   {
     name: "Large Vietnamese Iced Coffee with Condensed Milk (24oz)",
     price: 6.45,
-    imageSrc: "",
+    imageSrc: "/vietnamese_iced_coffee_with_condensed_milk.jpeg",
   },
   {
     name: "Banh Mi - Grilled Teriyaki Chicken",
     price: 9.99,
-    imageSrc: "",
+    imageSrc: "/small/banhmi_grilled_teriyaki_chicken.jpeg",
   },
   {
     name: "Banh Mi -  Garlic Soy Sauce Beef",
     price: 11.75,
-    imageSrc: "",
+    imageSrc: "/small/banhmi_garlic_soy_sauce_beef.jpeg",
   },
   {
     name: "Rice Plate - Grilled Teriyaki Chicken + Pork Egg Roll",
     price: 15.95,
-    imageSrc: "",
+    imageSrc: "/small/rice_plate_grilled_teriyaki_chicken_pork_egg_roll.jpeg",
   },
   {
     name: "Pork Egg Rolls - 5 Pieces",
     price: 12.0,
-    imageSrc: "",
+    imageSrc: "/fried_egg_rolls.jpeg",
   },
   {
     name: "Pho - Veggies & Mushroom",
     price: 15.95,
-    imageSrc: "",
+    imageSrc: "/pho_vegan.jpeg",
   },
   {
     name: "Vegetarian Spring Rolls - 4 Rolls",
     price: 12.95,
-    imageSrc: "",
+    imageSrc: "/small/spring_rolls_vegetarian.jpeg",
   },
   {
-    name: "Vermicelli - Garlic Soy Sauce Beef &Pork Egg Roll",
+    name: "Vermicelli - Garlic Soy Sauce Beef & Pork Egg Roll",
     price: 16.45,
-    imageSrc: "",
+    imageSrc: "/small/vermicelli_garlic_beef_pork_egg_roll.jpeg",
   },
   {
     name: "Large Sparkling Strawberry Lemonade (24oz)",
     price: 6.45,
-    imageSrc: "",
+    imageSrc: "/sparkling_strawberry_lemonade.jpeg",
   },
   {
-    name: "Chef's Special Flaming Pho, Veggies &amp; Mushroom",
+    name: "Chef's Special Flaming Pho, Veggies & Mushroom",
     price: 16.95,
-    imageSrc: "",
+    imageSrc: "/flaming_pho_veggies_mushroom.jpeg",
   },
 ];
 export const appetizers = [
   {
     name: "Spring Rolls - Grilled Shrimp - 4 Rolls",
     price: 12.95,
-    imageSrc: "",
+    imageSrc: "/spring_roll_grilled_shrimp.jpeg",
   },
   {
     name: "Spring Rolls - Grilled Teriyaki Chicken - 4 Rolls",
     price: 12.95,
-    imageSrc: "",
+    imageSrc: "/spring_roll_teriyaki_chicken.jpeg",
   },
   {
     name: "Pork Egg Rolls - 5 Pieces",
     price: 12.0,
-    imageSrc: "",
+    imageSrc: "/fried_egg_rolls.jpeg",
   },
   {
     name: "Spring Rolls - Garlic Soy Sauce Beef - 4 Rolls",
     price: 13.45,
-    imageSrc: "",
+    imageSrc: "/spring_roll_beef.jpeg",
   },
   {
     name: "Spring Rolls - Grilled Pork - 4 Rolls",
     price: 12.95,
-    imageSrc: "",
+    imageSrc: "/spring_roll_grilled_pork_2.jpeg",
   },
   {
     name: "Spicy Beef Gyoza - 8 Pieces",
     price: 10.95,
-    imageSrc: "",
+    imageSrc: "/dumplings_spicy_beef.jpeg",
   },
   {
     name: "Organic Vegetable Fried Dumplings - 8 Pieces",
     price: 9.75,
-    imageSrc: "",
+    imageSrc: "/dumplings_veggie.jpeg",
   },
   {
     name: "Fried Chicken Wings - Sweet Chili Sauce - 8 Pieces",
     price: 12.0,
-    imageSrc: "",
+    imageSrc: "/sweet_chili_fried_chicken_wings.jpeg",
   },
   {
     name: "Deep Fried Beef Dumplings - 8 Pieces",
     price: 10.95,
-    imageSrc: "",
+    imageSrc: "/dumplings_beef_bulgogi.jpeg",
   },
   {
     name: "Pork n' Vegetable Dumplings - 8 Pieces",
     price: 10.95,
-    imageSrc: "",
+    imageSrc: "/dumplings_veggie.jpeg",
   },
   {
     name: "Fried Chicken Wings - Mango Habanero - 8 Pieces",
     price: 12.0,
-    imageSrc: "",
+    imageSrc: "/small/chicken_wings_generic.jpeg",
   },
   {
     name: "Fried Chicken Wings - Buffalo Sauce - 8 Pieces",
     price: 12.0,
-    imageSrc: "",
+    imageSrc: "/small/chicken_wings_generic.jpeg",
   },
   {
     name: "Fried Chicken Wings - Nashville Hot - 8 Pieces",
     price: 12.0,
-    imageSrc: "",
+    imageSrc: "/small/chicken_wings_generic.jpeg",
   },
   {
     name: "Fried Chicken Wings-REDHOT- Cayenne Pepper Sauce- 8 Pieces",
     price: 12.0,
-    imageSrc: "",
+    imageSrc: "/small/chicken_wings_generic.jpeg",
   },
   {
     name: "Spring Roll Sampler - 4 Rolls",
     price: 15.0,
-    imageSrc: "",
+    imageSrc: "/spring_roll_grilled_shrimp.jpeg",
   },
   {
     name: "Mini Fried Chicken Wontons - 8 pieces",
     price: 7.25,
-    imageSrc: "",
+    imageSrc: "/mini_chicken_wonton.jpeg",
   },
   {
     name: "Appetizer Party Platter",
@@ -211,12 +211,12 @@ export const appetizers = [
   {
     name: "Chicken Gyoza - 8 Pieces",
     price: 10.95,
-    imageSrc: "",
+    imageSrc: "/mini_chicken_wonton.jpeg",
   },
   {
     name: "Fried Chicken Wings - Lemon Butter Garlic- 8 Pieces",
     price: 12.0,
-    imageSrc: "",
+    imageSrc: "/small/chicken_wings_generic.jpeg",
   },
   {
     name: "Fried Beef Balls - 8 Pieces",
@@ -226,7 +226,7 @@ export const appetizers = [
   {
     name: "Fried Chicken Wings- Japanese BBQ - 8 Pieces",
     price: 12.0,
-    imageSrc: "",
+    imageSrc: "/small/chicken_wings_generic.jpeg",
   },
   {
     name: "(NEW) Tofu Vegan Egg Rolls- 5 Pieces",
@@ -241,44 +241,44 @@ export const appetizers = [
   {
     name: "Fried Chicken Wings - Sweet Teriyaki - 8 Pieces",
     price: 12.0,
-    imageSrc: "",
+    imageSrc: "/small/chicken_wings_generic.jpeg",
   },
 ];
 export const pho = [
   {
     name: "Pho - Beef",
     price: 15.95,
-    imageSrc: "",
+    imageSrc: "/pho_beef.jpeg",
   },
   {
     name: "Chef's Special Flaming Pho Beef",
     price: 16.95,
-    imageSrc: "",
+    imageSrc: "/flaming_pho_beef.jpeg",
   },
   {
     name: "Pho - Boneless Chicken",
     price: 15.95,
-    imageSrc: "",
+    imageSrc: "/pho_chicken_2.jpeg",
   },
   {
     name: "Chef's Special Flaming Pho Chicken",
     price: 16.95,
-    imageSrc: "",
+    imageSrc: "/flaming_pho_chicken.jpeg",
   },
   {
     name: "Pho - Grilled Shrimp",
     price: 15.95,
-    imageSrc: "",
-  },
-  {
-    name: "Pho - Plain Noodle",
-    price: 12.95,
-    imageSrc: "",
+    imageSrc: "/pho_shrimp.jpeg",
   },
   {
     name: "Chef's Special Flaming Pho Shrimp",
     price: 16.95,
-    imageSrc: "",
+    imageSrc: "/flaming_pho_shrimp.jpeg",
+  },
+  {
+    name: "Pho - Plain Noodle",
+    price: 12.95,
+    imageSrc: "/small/pho_plain_noodle.jpeg",
   },
   {
     name: "Chef's Special Flaming Pho - Plain Noodle",
@@ -290,29 +290,29 @@ export const banh_mi__vietnamese_sandwich = [
   {
     name: "Banh Mi -  Grilled Pork",
     price: 9.99,
-    imageSrc: "",
+    imageSrc: "/small/banhmi_grilled_pork.jpeg",
   },
   {
     name: "Banh Mi -  Garlic Soy Sauce Beef",
     price: 11.75,
-    imageSrc: "",
+    imageSrc: "/small/banhmi_garlic_soy_sauce_beef.jpeg",
   },
   {
     name: "Banh Mi - Grilled Teriyaki Chicken",
     price: 9.99,
-    imageSrc: "",
+    imageSrc: "/small/banhmi_grilled_teriyaki_chicken.jpeg",
   },
   {
     name: "Banh Mi -  Fried Eggs with Soy Sauce",
     price: 9.99,
-    imageSrc: "",
+    imageSrc: "/small/banhmi_egg.jpeg",
   },
 ];
 export const rice_plate = [
   {
     name: "Rice Plate - Grilled Teriyaki Chicken + Pork Egg Roll",
     price: 15.95,
-    imageSrc: "",
+    imageSrc: "/small/rice_plate_grilled_teriyaki_chicken_pork_egg_roll.jpeg",
   },
   {
     name: "Rice Plate -  Combination 2 choices of meat + Pork Egg Roll",
@@ -344,22 +344,22 @@ export const vermicelli = [
   {
     name: "Vermicelli - Combination 2 choices of meat + Pork Egg Roll",
     price: 17.45,
-    imageSrc: "",
+    imageSrc: "/small/vermicelli_2_meat_pork_egg_roll.jpeg",
   },
   {
     name: "Vermicelli - Garlic Soy Sauce Beef &Pork Egg Roll",
     price: 16.45,
-    imageSrc: "",
+    imageSrc: "/small/vermicelli_garlic_beef_pork_egg_roll.jpeg",
   },
   {
     name: "Vermicelli - Grilled Pork & Pork Egg Roll",
     price: 15.95,
-    imageSrc: "",
+    imageSrc: "/vermicelli_grilled_pork.jpeg",
   },
   {
     name: "Vermicelli - Grilled Teriyaki  Chicken & Pork Egg Roll",
     price: 15.95,
-    imageSrc: "",
+    imageSrc: "/small/vermicelli_teriyaki_chicken_egg_roll.jpeg",
   },
   {
     name: "Vermicelli - Grilled Shrimp & Pork Egg Roll",
@@ -398,7 +398,7 @@ export const salad = [
   {
     name: "Salad - Grilled Pork",
     price: 12.5,
-    imageSrc: "",
+    imageSrc: "/salad_grilled_pork.jpeg",
   },
   {
     name: "Salad - Grilled Shrimp",
@@ -420,32 +420,32 @@ export const vegan = [
   {
     name: "Vegetarian Spring Rolls - 4 Rolls",
     price: 12.95,
-    imageSrc: "",
+    imageSrc: "/small/spring_rolls_vegetarian.jpeg",
   },
   {
     name: "Pho - Veggies & Mushroom",
     price: 15.95,
-    imageSrc: "",
+    imageSrc: "/pho_vegan.jpeg",
   },
   {
-    name: "Chef's Special Flaming Pho, Veggies &amp; Mushroom",
+    name: "Chef's Special Flaming Pho, Veggies & Mushroom",
     price: 16.95,
-    imageSrc: "",
+    imageSrc: "/flaming_pho_veggies_mushroom.jpeg",
   },
   {
     name: "Banh Mi - Fried Tofu & Mushrooms",
     price: 12.95,
-    imageSrc: "",
+    imageSrc: "/small/banhmi_vegetarian.jpeg",
   },
   {
     name: "Vermicelli - Vegetable Egg Roll, Tofu, Mushroom",
     price: 15.95,
-    imageSrc: "",
+    imageSrc: "/small/vermicelli_vegetarian.jpeg",
   },
   {
     name: "Organic Vegetable Fried Dumplings - 8 pieces",
     price: 9.75,
-    imageSrc: "",
+    imageSrc: "/dumplings_veggie.jpeg",
   },
   {
     name: "(NEW) Tofu Vegan Egg Roll - 5 Pieces",
@@ -467,22 +467,22 @@ export const flavored_teas_and_coffee = [
   {
     name: "Large Thai Iced Tea (24oz)",
     price: 6.45,
-    imageSrc: "",
-  },
-  {
-    name: "Large Vietnamese Iced Coffee with Condensed Milk (24oz)",
-    price: 6.45,
-    imageSrc: "",
-  },
-  {
-    name: "Regular Vietnamese Iced Coffee with Condensed Milk (16 oz)",
-    price: 5.45,
-    imageSrc: "",
+    imageSrc: "/thai_iced_tea.jpeg",
   },
   {
     name: "Regular Thai Iced Tea (16oz)",
     price: 5.45,
-    imageSrc: "",
+    imageSrc: "/thai_iced_tea.jpeg",
+  },
+  {
+    name: "Large Vietnamese Iced Coffee (24oz)",
+    price: 6.45,
+    imageSrc: "/vietnamese_iced_coffee_with_condensed_milk.jpeg",
+  },
+  {
+    name: "Regular Vietnamese Iced Coffee (16 oz)",
+    price: 5.45,
+    imageSrc: "/vietnamese_iced_coffee_with_condensed_milk.jpeg",
   },
   {
     name: "Regular Milk Tea (16oz)",
@@ -499,12 +499,12 @@ export const fresh_flavored_lemonade = [
   {
     name: "Large Sparkling Strawberry Lemonade (24oz)",
     price: 6.45,
-    imageSrc: "",
+    imageSrc: "/sparkling_strawberry_lemonade.jpeg",
   },
   {
     name: "Regular Sparkling Strawberry Lemonade (16oz)",
     price: 5.45,
-    imageSrc: "",
+    imageSrc: "/sparkling_strawberry_lemonade.jpeg",
   },
   {
     name: "Regular Sparkling Lychee Lemonade (16oz)",
