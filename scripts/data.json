@@ -1,0 +1,1251 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "@id": "https://www.ubereats.com/store/vietnamese-delight-358-w-38th-st/5qOZv-i2RL6G2blPIkGCAw",
+  "name": "Vietnamese Delight (358 W 38th St)",
+  "servesCuisine": ["Vietnamese", "Noodles", "Asian", "Group Friendly"],
+  "priceRange": "$",
+  "image": [
+    "https://tb-static.uber.com/prod/image-proc/processed_images/507beba9f79b6fe0a8bab529cf020a43/f6deb0afc24fee6f4bd31a35e6bcbd47.jpeg",
+    "https://tb-static.uber.com/prod/image-proc/processed_images/507beba9f79b6fe0a8bab529cf020a43/9b3aae4cf90f897799a5ed357d60e09d.jpeg",
+    "https://tb-static.uber.com/prod/image-proc/processed_images/507beba9f79b6fe0a8bab529cf020a43/fdf52d66534809b650058f41d517d74a.jpeg",
+    "https://tb-static.uber.com/prod/image-proc/processed_images/507beba9f79b6fe0a8bab529cf020a43/8a42ee7a692dfa4155879820804a277f.jpeg",
+    "https://tb-static.uber.com/prod/image-proc/processed_images/507beba9f79b6fe0a8bab529cf020a43/783282f6131ef2258e5bcd87c46aa87e.jpeg",
+    "https://tb-static.uber.com/prod/image-proc/processed_images/507beba9f79b6fe0a8bab529cf020a43/fb86662148be855d931b37d6c1e5fcbe.jpeg"
+  ],
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.ubereats.com/store/vietnamese-delight-358-w-38th-st/5qOZv-i2RL6G2blPIkGCAw?utm_campaign=order-action&amp;utm_medium=organic",
+      "inLanguage": "English",
+      "actionPlatform": [
+        "https://schema.org/DesktopWebPlatform",
+        "https://schema.org/MobileWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+    ]
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Los Angeles",
+    "addressRegion": "CA",
+    "postalCode": "90037",
+    "addressCountry": "US",
+    "streetAddress": "358 W 38th St"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 34.0144276,
+    "longitude": -118.2790954
+  },
+  "telephone": "+16262355110",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6,
+    "reviewCount": "2770"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Sunday",
+      "opens": "0:0",
+      "closes": "0:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Sunday",
+      "opens": "9:0",
+      "closes": "23:59"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Monday",
+      "opens": "0:0",
+      "closes": "0:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Monday",
+      "opens": "9:0",
+      "closes": "23:0"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Tuesday", "Wednesday", "Thursday"],
+      "opens": "9:0",
+      "closes": "23:0"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Friday",
+      "opens": "9:0",
+      "closes": "23:59"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "0:0",
+      "closes": "0:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "9:0",
+      "closes": "23:59"
+    }
+  ],
+  "hasMenu": {
+    "@type": "Menu",
+    "hasMenuSection": [
+      {
+        "name": "Featured items",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Pho - Beef",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "15.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Chef’s Special Flaming Pho Beef",
+            "description": "Spicy Soup w/ Lemongrass and Chili",
+            "offers": {
+              "@type": "Offer",
+              "price": "16.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Spring Rolls - Grilled Shrimp - 4 Rolls",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Banh Mi -  Grilled Pork",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "9.99",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Pho - Boneless Chicken",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "15.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Large Thai Iced Tea (24oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "6.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Vermicelli - Combination 2 choices of meat + Pork Egg Roll",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "17.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Chef’s Special Flaming Pho Chicken",
+            "description": "Spicy Soup w/ Lemongrass and Chili",
+            "offers": {
+              "@type": "Offer",
+              "price": "16.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Spring Rolls - Grilled Teriyaki Chicken - 4 Rolls",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Large Vietnamese Iced Coffee with Condensed Milk (24oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "6.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Banh Mi - Grilled Teriyaki Chicken",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "9.99",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Banh Mi -  Garlic Soy Sauce Beef",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "11.75",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Rice Plate - Grilled Teriyaki Chicken + Pork Egg Roll",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "15.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Pork Egg Rolls - 5 Pieces",
+            "description": "Delicious hand-made egg rolls with pork, wood ear mushroom, taro and sweet potato",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.00",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Pho - Veggies ＆ Mushroom",
+            "description": "Savory vegan broth served with fried mushroom tofu, fresh broccoli, carrots, cabbage, button mushrooms, and rice noodles. Side veggies include: bean sprouts, A-Choi, basil, jalapeño, a slice of lime, hot sauce, and hoisin sauce. Garnished with thinly sliced onions, green onion, cilantro, fried shallots, and black pepper.",
+            "offers": {
+              "@type": "Offer",
+              "price": "15.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Vegetarian Spring Rolls - 4 Rolls",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Vermicelli - Garlic Soy Sauce Beef ＆Pork Egg Roll",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "16.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Large Sparkling Strawberry Lemonade (24oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "6.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Chef’s Special Flaming Pho, Veggies &amp; Mushroom",
+            "description": "Spicy soup with Lemongrass and Chili",
+            "offers": {
+              "@type": "Offer",
+              "price": "16.95",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Spring Rolls - Grilled Shrimp - 4 Rolls",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Spring Rolls - Grilled Teriyaki Chicken - 4 Rolls",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Pork Egg Rolls - 5 Pieces",
+            "description": "Delicious hand-made egg rolls with pork, wood ear mushroom, taro and sweet potato",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.00",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Spring Rolls - Garlic Soy Sauce Beef - 4 Rolls",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "13.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Spring Rolls - Grilled Pork - 4 Rolls",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Spicy Beef Gyoza - 8 Pieces",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "10.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Organic Vegetable Fried Dumplings - 8 Pieces",
+            "description": "Organic vegetables : Crisp Edamame, carrots, cabbage, onions and green onions",
+            "offers": {
+              "@type": "Offer",
+              "price": "9.75",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Fried Chicken Wings - Sweet Chili Sauce - 8 Pieces",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.00",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Deep Fried Beef Dumplings - 8 Pieces",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "10.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Pork n’ Vegetable Dumplings - 8 Pieces",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "10.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Fried Chicken Wings - Mango Habanero - 8 Pieces",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.00",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Fried Chicken Wings - Buffalo Sauce - 8 Pieces",
+            "description": "Crispy and crunchy wings seasoned with delicious buffalo sauce.",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.00",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Fried Chicken Wings - Nashville Hot - 8 Pieces",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.00",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Fried Chicken Wings-REDHOT- Cayenne Pepper Sauce- 8 Pieces",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.00",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Spring Roll Sampler - 4 Rolls",
+            "description": "1 grilled shrimp\n1 grilled pork\n1 teriyaki chicken\n1 garlic soy sauce beef",
+            "offers": {
+              "@type": "Offer",
+              "price": "15.00",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Mini Fried Chicken Wontons - 8 pieces",
+            "description": "Chicken &amp; Cilantro",
+            "offers": {
+              "@type": "Offer",
+              "price": "7.25",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Appetizer Party Platter",
+            "description": "Includes our delicious and popular appetizers:\n5 pork egg rolls\n5 beef bulgogi dumplings\n5 spicy beef dumplings \n5 vegetable dumplings \n5 pork and vegetable dumplings",
+            "offers": {
+              "@type": "Offer",
+              "price": "29.00",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Chicken Gyoza - 8 Pieces",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "10.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Fried Chicken Wings - Lemon Butter Garlic- 8 Pieces",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.00",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Fried Beef Balls - 8 Pieces",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "11.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Fried Chicken Wings- Japanese BBQ - 8 Pieces",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.00",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "(NEW) Tofu Vegan Egg Rolls- 5 Pieces",
+            "description": "Delicious vegan egg roll infused with tofu, taro, sweet yam and wood ear mushroom.",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.00",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Fried Tofu with Mushrooms - 8 Pieces",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "10.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Fried Chicken Wings - Sweet Teriyaki - 8 Pieces",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.00",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Pho",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Pho - Beef",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "15.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Chef’s Special Flaming Pho Beef",
+            "description": "Spicy Soup w/ Lemongrass and Chili",
+            "offers": {
+              "@type": "Offer",
+              "price": "16.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Pho - Boneless Chicken",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "15.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Chef’s Special Flaming Pho Chicken",
+            "description": "Spicy Soup w/ Lemongrass and Chili",
+            "offers": {
+              "@type": "Offer",
+              "price": "16.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Pho - Grilled Shrimp",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "15.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Pho - Plain Noodle",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Chef’s Special Flaming Pho Shrimp",
+            "description": "Spicy Soup w/ Lemongrass and Chili",
+            "offers": {
+              "@type": "Offer",
+              "price": "16.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Chef’s Special Flaming Pho - Plain Noodle",
+            "description": "Spicy Soup w/ Lemongrass and Chili",
+            "offers": {
+              "@type": "Offer",
+              "price": "13.95",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Banh Mi - Vietnamese Sandwich",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Banh Mi -  Grilled Pork",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "9.99",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Banh Mi -  Garlic Soy Sauce Beef",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "11.75",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Banh Mi - Grilled Teriyaki Chicken",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "9.99",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Banh Mi -  Fried Eggs with Soy Sauce",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "9.99",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Rice Plate",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Rice Plate - Grilled Teriyaki Chicken + Pork Egg Roll",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "15.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Rice Plate -  Combination 2 choices of meat + Pork Egg Roll",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "17.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Rice Plate -  Grilled Pork + Pork Egg Roll",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "15.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Rice Plate -  Combination 3 choices of meat + Pork Egg Roll",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "18.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Rice Plate -  Garlic Soy Sauce Beef + Pork Egg Roll",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "16.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Rice Plate -  Grilled Shrimp + Pork Egg Roll",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "15.95",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Vermicelli",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Vermicelli - Combination 2 choices of meat + Pork Egg Roll",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "17.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Vermicelli - Garlic Soy Sauce Beef ＆Pork Egg Roll",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "16.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Vermicelli - Grilled Pork ＆ Pork Egg Roll",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "15.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Vermicelli - Grilled Teriyaki  Chicken ＆ Pork Egg Roll",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "15.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Vermicelli - Grilled Shrimp ＆ Pork Egg Roll",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "15.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Vermicelli - Combination 3 choices of meat + Pork Egg Roll",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "18.45",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "name": "All Day Breakfast - Croissant Sandwiches",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Fried Eggs Croissant Sandwich",
+            "description": "Toasted Butter Croissant, Lettuce, Pickled Carrots, Cilantro and Fried Eggs",
+            "offers": {
+              "@type": "Offer",
+              "price": "8.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Grilled Pork Croissant Sandwich",
+            "description": "Toasted Butter Croissant, Lettuce, Pickled Carrots, Cilantro and Grilled Pork",
+            "offers": {
+              "@type": "Offer",
+              "price": "8.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Garlic Soy Sauce Beef Croissant Sandwich",
+            "description": "Toasted Butter Croissant, Lettuce, Pickled Carrots, Cilantro and garlic soy sauce Beef",
+            "offers": {
+              "@type": "Offer",
+              "price": "9.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Teriyaki Chicken Croissant Sandwich",
+            "description": "Toasted Butter Croissant, Lettuce, Pickled Carrots, Cilantro and Teriyaki Chicken",
+            "offers": {
+              "@type": "Offer",
+              "price": "8.95",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Salad",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Salad - Grilled Pork",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.50",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Salad - Grilled Shrimp",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "13.50",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Salad - Grilled Teriyaki Chicken",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.50",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Salad - Garlic Soy Sauce Beef",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.95",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Vegan",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Vegetarian Spring Rolls - 4 Rolls",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Pho - Veggies ＆ Mushroom",
+            "description": "Savory vegan broth served with fried mushroom tofu, fresh broccoli, carrots, cabbage, button mushrooms, and rice noodles. Side veggies include: bean sprouts, A-Choi, basil, jalapeño, a slice of lime, hot sauce, and hoisin sauce. Garnished with thinly sliced onions, green onion, cilantro, fried shallots, and black pepper.",
+            "offers": {
+              "@type": "Offer",
+              "price": "15.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Chef’s Special Flaming Pho, Veggies &amp; Mushroom",
+            "description": "Spicy soup with Lemongrass and Chili",
+            "offers": {
+              "@type": "Offer",
+              "price": "16.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Banh Mi - Fried Tofu ＆ Mushrooms",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Vermicelli - Vegetable Egg Roll, Tofu, Mushroom",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "15.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Organic Vegetable Fried Dumplings - 8 pieces",
+            "description": "Organic vegetables: Crisp Edamame, carrots, cabbage, onions and green onions",
+            "offers": {
+              "@type": "Offer",
+              "price": "9.75",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "(NEW) Tofu Vegan Egg Roll - 5 Pieces",
+            "description": "Delicious vegan egg roll infused with tofu, taro, sweet yam and woodear mushroom.",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.00",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Vegan Rice Plate - Vegetable Egg Roll, Tofu and Mushroom",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "15.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Salad - Tofu",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.50",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Flavored Teas &amp; Coffee",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Large Thai Iced Tea (24oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "6.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Large Vietnamese Iced Coffee with Condensed Milk (24oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "6.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Regular Vietnamese Iced Coffee with Condensed Milk (16 oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "5.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Regular Thai Iced Tea (16oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "5.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Regular Milk Tea (16oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "5.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Large Milk Tea (24oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "6.45",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Fresh Flavored Lemonade",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Large Sparkling Strawberry Lemonade (24oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "6.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Regular Sparkling Strawberry Lemonade (16oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "5.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Regular Sparkling Lychee Lemonade (16oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "5.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Large Sparkling Lychee Lemonade (24oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "6.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Regular Sparkling Mango Lemonade (16oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "5.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Regular Sparkling Passion Fruit Lemonade (16oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "5.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Large Sparkling Passion Fruit Lemonade (24oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "6.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Regular Sparkling Peach Lemonade (16oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "5.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Large Sparkling Mango Lemonade (24oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "6.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Large Sparkling Peach Lemonade (24oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "6.45",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Large Sparkling Lemonade (24oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "5.95",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Regular Sparkling Lemonade (16oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "4.95",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Drinks",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Coca Cola Can (12 oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "1.49",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Sprite Can (12 oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "1.49",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Diet Coke Can (12oz)",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "1.49",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Water Bottle",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "1.49",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Perrier Sparkling Water",
+            "description": "",
+            "offers": {
+              "@type": "Offer",
+              "price": "2.50",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Vietnamese Delight",
+            "description": "Freshly Toasted Buttery Croissant served with a side of delicious creamy condensed milk",
+            "offers": {
+              "@type": "Offer",
+              "price": "3.95",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

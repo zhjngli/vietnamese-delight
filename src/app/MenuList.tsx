@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { MenuItem } from "./items";
+import { MenuItem } from "./MenuItem";
 
 interface MenuListProps {
   menuSection: string;

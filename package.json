@@ -2,11 +2,12 @@
   "name": "vietnamese-delight",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint && prettier --write **/*.tsx **/*.ts **/*.js **/*.json **/*.mjs"
+    "lint": "next lint && prettier --write **/*.tsx **/*.js **/*.ts **/*.js **/*.json **/*.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^1.2.2",
