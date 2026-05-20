@@ -17,7 +17,8 @@ export default function AboutPage() {
           rel="noopener noreferrer"
           className="hover:underline"
         >
-          1842 W Washington Blvd<br />
+          1842 W Washington Blvd
+          <br />
           Los Angeles, CA 90007
         </Link>
       </p>

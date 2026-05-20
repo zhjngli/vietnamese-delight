@@ -1,8 +1,8 @@
 import { execFile } from "child_process";
-import { promisify } from "util";
 import crypto from "crypto";
 import fs from "fs";
 import path from "path";
+import { promisify } from "util";
 
 const execFileP = promisify(execFile);
 
@@ -17,15 +17,7 @@ const IMG_WEB_PREFIX = "/menu";
 async function fetchUrl(url) {
   const { stdout } = await execFileP(
     "curl",
-    [
-      "-sL",
-      "--fail",
-      "--max-time",
-      "30",
-      "-A",
-      USER_AGENT,
-      url,
-    ],
+    ["-sL", "--fail", "--max-time", "30", "-A", USER_AGENT, url],
     { maxBuffer: 32 * 1024 * 1024 },
   );
   return stdout;
@@ -37,23 +29,15 @@ async function downloadToFile(url, dest) {
   try {
     await execFileP(
       "curl",
-      [
-        "-sL",
-        "--fail",
-        "--max-time",
-        "30",
-        "-A",
-        USER_AGENT,
-        "-o",
-        tmp,
-        url,
-      ],
+      ["-sL", "--fail", "--max-time", "30", "-A", USER_AGENT, "-o", tmp, url],
       { maxBuffer: 32 * 1024 * 1024 },
     );
     fs.renameSync(tmp, dest);
     return "downloaded";
   } catch (err) {
-    try { fs.unlinkSync(tmp); } catch {}
+    try {
+      fs.unlinkSync(tmp);
+    } catch {}
     throw err;
   }
 }
@@ -205,7 +189,9 @@ async function main() {
     collectImagePairs(data, nameToImage);
     console.log(`structured image parse: ${nameToImage.size} pairs`);
   } catch (err) {
-    console.warn(`structured image parse failed (${err.message}); falling back to regex`);
+    console.warn(
+      `structured image parse failed (${err.message}); falling back to regex`,
+    );
     const safe = imageBlob.replace(/[\x00-\x1f]/g, (c) => {
       const map = { "\n": "\\n", "\r": "\\r", "\t": "\\t" };
       return map[c] || "\\u" + c.charCodeAt(0).toString(16).padStart(4, "0");
@@ -216,7 +202,9 @@ async function main() {
   }
 
   if (nameToImage.size === 0) {
-    console.warn("WARNING: no item images extracted; items.tsx will have empty imageSrc fields");
+    console.warn(
+      "WARNING: no item images extracted; items.tsx will have empty imageSrc fields",
+    );
   }
 
   fs.mkdirSync(IMG_DIR, { recursive: true });

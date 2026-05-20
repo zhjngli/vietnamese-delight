@@ -9,13 +9,15 @@ export const buy_1_get_1_free = [
     name: "Bang Bang French Fries",
     price: 8,
     imageSrc: "",
-    description: "Sweet and Spicy seasoning combine with garlic, soy sauce, red pepper and ginger",
+    description:
+      "Sweet and Spicy seasoning combine with garlic, soy sauce, red pepper and ginger",
   },
   {
     name: "Fried Eggs Croissant Sandwich",
     price: 7.95,
     imageSrc: "",
-    description: "Toasted Butter Croissant, Lettuce, Pickled Carrots, Cilantro and Fried Eggs",
+    description:
+      "Toasted Butter Croissant, Lettuce, Pickled Carrots, Cilantro and Fried Eggs",
   },
   {
     name: "The Blend French Fries",
@@ -29,7 +31,8 @@ export const flavored_french_fries = [
     name: "Bang Bang French Fries",
     price: 8,
     imageSrc: "",
-    description: "Sweet and Spicy seasoning combine with garlic, soy sauce, red pepper and ginger",
+    description:
+      "Sweet and Spicy seasoning combine with garlic, soy sauce, red pepper and ginger",
   },
   {
     name: "The Blend French Fries",
@@ -79,7 +82,8 @@ export const appetizers = [
     name: "Spring Roll Sampler - 4 Rolls",
     price: 16,
     imageSrc: "/menu/b6028c26fc2276bffc4a1b1659cddf706a8ad13c.jpeg",
-    description: "1 grilled shrimp\n1 grilled pork\n1 teriyaki chicken\n1 garlic soy sauce beef",
+    description:
+      "1 grilled shrimp\n1 grilled pork\n1 teriyaki chicken\n1 garlic soy sauce beef",
   },
   {
     name: "Deep Fried Beef Dumplings - 8 Pieces",
@@ -90,7 +94,8 @@ export const appetizers = [
     name: "Organic Vegetable Fried Dumplings - 8 Pieces",
     price: 10.5,
     imageSrc: "/menu/5f2af0df844d821e50b0c711441bd8e7e2c35a27.jpeg",
-    description: "Organic vegetables : Crisp Edamame, carrots, cabbage, onions and green onions",
+    description:
+      "Organic vegetables : Crisp Edamame, carrots, cabbage, onions and green onions",
   },
   {
     name: "Spicy Beef Gyoza - 8 Pieces",
@@ -121,7 +126,8 @@ export const appetizers = [
     name: "Fried Chicken Wings - Buffalo Sauce - 8 Pieces",
     price: 12.95,
     imageSrc: "/menu/28cd9d8219b516275b7af4a3dd8c826e0ee3ea13.jpeg",
-    description: "Crispy and crunchy wings seasoned with delicious buffalo sauce.",
+    description:
+      "Crispy and crunchy wings seasoned with delicious buffalo sauce.",
   },
   {
     name: "Fried Chicken Wings-REDHOT- Cayenne Pepper Sauce- 8 Pieces",
@@ -168,7 +174,8 @@ export const appetizers = [
     name: "Vegetable Egg Rolls - 8 Pieces",
     price: 12.95,
     imageSrc: "",
-    description: "Delicious vegetable egg rolls with edamame, sweet potato, onion, bamboo shoots, cabbage, carrot, yam bean and leek.",
+    description:
+      "Delicious vegetable egg rolls with edamame, sweet potato, onion, bamboo shoots, cabbage, carrot, yam bean and leek.",
   },
   {
     name: "Shrimp Flavored Crackers Snack",
@@ -207,19 +214,22 @@ export const banh_mi_vietnamese_sandwich = [
     name: "Half Banh Mi Garlic Soy Sauce Beef & 2 Beef Spring Rolls",
     price: 16,
     imageSrc: "",
-    description: "Garlic soy sauce beef takes the lead in this lunch combo, paired with a half Vietnamese banh mi and two beef spring rolls for a satisfying mix of savory sandwich bites and fresh rolls.",
+    description:
+      "Garlic soy sauce beef takes the lead in this lunch combo, paired with a half Vietnamese banh mi and two beef spring rolls for a satisfying mix of savory sandwich bites and fresh rolls.",
   },
   {
     name: "Half Banh Mi Teriyaki Chicken & 2 Chicken Spring Rolls",
     price: 15.5,
     imageSrc: "",
-    description: "Half a Vietnamese teriyaki chicken banh mi paired with 2 chicken spring rolls for an easy lunch combo. Savory teriyaki chicken and a crisp, handheld bite make it a satisfying pick from the banh mi lineup.",
+    description:
+      "Half a Vietnamese teriyaki chicken banh mi paired with 2 chicken spring rolls for an easy lunch combo. Savory teriyaki chicken and a crisp, handheld bite make it a satisfying pick from the banh mi lineup.",
   },
   {
     name: "Half Banh Mi Pork & 2 Pork Spring Rolls",
     price: 15.5,
     imageSrc: "",
-    description: "A half pork banh mi paired with 2 pork spring rolls for a quick, satisfying Vietnamese combo. Savory pork and crisp, fresh textures make it an easy lunch pick.",
+    description:
+      "A half pork banh mi paired with 2 pork spring rolls for a quick, satisfying Vietnamese combo. Savory pork and crisp, fresh textures make it an easy lunch pick.",
   },
 ];
 export const pho = [
@@ -265,7 +275,8 @@ export const pho = [
     name: "Flaming Beef Dumplings Soup",
     price: 17.95,
     imageSrc: "/menu/be6a2261cebf11fc58ef481bb5efd5044c271982.jpeg",
-    description: "Delicious beef dumplings served in spicy lemongrass beef broth.",
+    description:
+      "Delicious beef dumplings served in spicy lemongrass beef broth.",
   },
   {
     name: "Chef’s Special Flaming Pho - Plain Noodle",
@@ -283,13 +294,15 @@ export const pho = [
     name: "Chicken Wonton Soup",
     price: 14.5,
     imageSrc: "",
-    description: "Delicious chicken wonton with cilantro served with beef broth.",
+    description:
+      "Delicious chicken wonton with cilantro served with beef broth.",
   },
   {
     name: "Flaming Chicken Wonton Soup",
     price: 15.5,
     imageSrc: "",
-    description: "Delicious chicken wonton with cilantro served in spicy lemongrass beef broth.",
+    description:
+      "Delicious chicken wonton with cilantro served in spicy lemongrass beef broth.",
   },
 ];
 export const rice_plate = [
@@ -366,25 +379,29 @@ export const all_day_breakfast_croissant_sandwiches = [
     name: "Fried Eggs Croissant Sandwich",
     price: 7.95,
     imageSrc: "",
-    description: "Toasted Butter Croissant, Lettuce, Pickled Carrots, Cilantro and Fried Eggs",
+    description:
+      "Toasted Butter Croissant, Lettuce, Pickled Carrots, Cilantro and Fried Eggs",
   },
   {
     name: "Pork Croissant Sandwich",
     price: 7.95,
     imageSrc: "",
-    description: "Toasted Butter Croissant, Lettuce, Pickled Carrots, Cilantro and Grilled Pork",
+    description:
+      "Toasted Butter Croissant, Lettuce, Pickled Carrots, Cilantro and Grilled Pork",
   },
   {
     name: "Teriyaki Chicken Croissant Sandwich",
     price: 7.95,
     imageSrc: "",
-    description: "Toasted Butter Croissant, Lettuce, Pickled Carrots, Cilantro and Teriyaki Chicken",
+    description:
+      "Toasted Butter Croissant, Lettuce, Pickled Carrots, Cilantro and Teriyaki Chicken",
   },
   {
     name: "Garlic Soy Sauce Beef Croissant Sandwich",
     price: 7.95,
     imageSrc: "",
-    description: "Toasted Butter Croissant, Lettuce, Pickled Carrots, Cilantro and garlic soy sauce Beef",
+    description:
+      "Toasted Butter Croissant, Lettuce, Pickled Carrots, Cilantro and garlic soy sauce Beef",
   },
 ];
 export const salad = [
@@ -418,7 +435,8 @@ export const vegan = [
     name: "Pho - Veggies & Mushroom",
     price: 15.95,
     imageSrc: "/menu/850d7463568b3dc6eef7dfdc9e5c500b6b4d2e7b.jpeg",
-    description: "Savory vegan broth served with fried mushroom tofu, fresh broccoli, carrots, cabbage, button mushrooms, and rice noodles. Side veggies include: bean sprouts, A-Choi, basil, jalapeño, a slice of lime, hot sauce, and hoisin sauce. Garnished with thinly sliced onions, green onion, cilantro, fried shallots, and black pepper.",
+    description:
+      "Savory vegan broth served with fried mushroom tofu, fresh broccoli, carrots, cabbage, button mushrooms, and rice noodles. Side veggies include: bean sprouts, A-Choi, basil, jalapeño, a slice of lime, hot sauce, and hoisin sauce. Garnished with thinly sliced onions, green onion, cilantro, fried shallots, and black pepper.",
   },
   {
     name: "Chef’s Special Flaming Pho, Veggies & Mushroom",
@@ -435,7 +453,8 @@ export const vegan = [
     name: "Organic Vegetable Fried Dumplings - 8 pieces",
     price: 10.5,
     imageSrc: "/menu/5f2af0df844d821e50b0c711441bd8e7e2c35a27.jpeg",
-    description: "Organic vegetables: Crisp Edamame, carrots, cabbage, onions and green onions",
+    description:
+      "Organic vegetables: Crisp Edamame, carrots, cabbage, onions and green onions",
   },
   {
     name: "Salad - Tofu",
@@ -446,7 +465,8 @@ export const vegan = [
     name: "Vegetarian Spring Rolls - 4 Pieces",
     price: 14.45,
     imageSrc: "",
-    description: "mushroom tofu, lettuce, pickled carrots & daikons, mint, egg roll crunch sticks wrapped in rice paper.",
+    description:
+      "mushroom tofu, lettuce, pickled carrots & daikons, mint, egg roll crunch sticks wrapped in rice paper.",
   },
   {
     name: "Vegetable Egg Rolls- 8 Pieces",
@@ -570,7 +590,8 @@ export const dessert = [
     name: "Vietnamese Delight",
     price: 3.95,
     imageSrc: "",
-    description: "Freshly Toasted Buttery Croissant served with a side of delicious creamy condensed milk",
+    description:
+      "Freshly Toasted Buttery Croissant served with a side of delicious creamy condensed milk",
   },
   {
     name: "Shrimp Flavored Crackers Snack",
