@@ -1,7 +1,10 @@
+import { execFile } from "child_process";
+import { promisify } from "util";
 import crypto from "crypto";
 import fs from "fs";
-import https from "https";
 import path from "path";
+
+const execFileP = promisify(execFile);
 
 const UBEREATS_URL =
   "https://www.ubereats.com/store/vietnamese-delight-w-washington-blvd/5qOZv-i2RL6G2blPIkGCAw?diningMode=DELIVERY";
@@ -11,74 +14,48 @@ const OUT_TSX = "src/components/items.tsx";
 const IMG_DIR = "public/menu";
 const IMG_WEB_PREFIX = "/menu";
 
-function fetchUrl(url, maxRedirects = 5) {
-  return new Promise((resolve, reject) => {
-    const doRequest = (currentUrl, remaining) => {
-      const req = https.get(
-        currentUrl,
-        { headers: { "User-Agent": USER_AGENT }, timeout: 30000 },
-        (res) => {
-          if (
-            res.statusCode >= 300 &&
-            res.statusCode < 400 &&
-            res.headers.location
-          ) {
-            if (remaining <= 0) {
-              reject(new Error(`too many redirects starting at ${url}`));
-              return;
-            }
-            res.resume();
-            const next = new URL(res.headers.location, currentUrl).toString();
-            doRequest(next, remaining - 1);
-            return;
-          }
-          if (res.statusCode !== 200) {
-            reject(new Error(`HTTP ${res.statusCode} for ${currentUrl}`));
-            return;
-          }
-          const chunks = [];
-          res.on("data", (c) => chunks.push(c));
-          res.on("end", () => resolve(Buffer.concat(chunks).toString("utf8")));
-          res.on("error", reject);
-        },
-      );
-      req.on("error", reject);
-      req.on("timeout", () => {
-        req.destroy(new Error("timeout"));
-      });
-    };
-    doRequest(url, maxRedirects);
-  });
+async function fetchUrl(url) {
+  const { stdout } = await execFileP(
+    "curl",
+    [
+      "-sL",
+      "--fail",
+      "--max-time",
+      "30",
+      "-A",
+      USER_AGENT,
+      url,
+    ],
+    { maxBuffer: 32 * 1024 * 1024 },
+  );
+  return stdout;
 }
 
-function downloadToFile(url, dest) {
-  return new Promise((resolve, reject) => {
-    if (fs.existsSync(dest)) {
-      resolve("cached");
-      return;
-    }
-    https
-      .get(url, { headers: { "User-Agent": USER_AGENT }, timeout: 30000 }, (res) => {
-        if (res.statusCode !== 200) {
-          reject(new Error(`HTTP ${res.statusCode} for ${url}`));
-          return;
-        }
-        const tmp = dest + ".part";
-        const file = fs.createWriteStream(tmp);
-        res.pipe(file);
-        file.on("finish", () =>
-          file.close((err) => {
-            if (err) return reject(err);
-            fs.renameSync(tmp, dest);
-            resolve("downloaded");
-          }),
-        );
-        file.on("error", (err) => {
-          fs.unlink(tmp, () => reject(err));
-        });
-      })
-      .on("error", reject);
-  });
+async function downloadToFile(url, dest) {
+  if (fs.existsSync(dest)) return "cached";
+  const tmp = dest + ".part";
+  try {
+    await execFileP(
+      "curl",
+      [
+        "-sL",
+        "--fail",
+        "--max-time",
+        "30",
+        "-A",
+        USER_AGENT,
+        "-o",
+        tmp,
+        url,
+      ],
+      { maxBuffer: 32 * 1024 * 1024 },
+    );
+    fs.renameSync(tmp, dest);
+    return "downloaded";
+  } catch (err) {
+    try { fs.unlinkSync(tmp); } catch {}
+    throw err;
+  }
 }
 
 function extractScripts(html) {
