@@ -1,10 +1,12 @@
 import MenuList from "../components/MenuList";
 import {
-  all_day_breakfast__croissant_sandwiches,
+  all_day_breakfast_croissant_sandwiches,
   appetizers,
-  banh_mi__vietnamese_sandwich,
+  banh_mi_vietnamese_sandwich,
+  buy_1_get_1_free,
   dessert,
   drinks,
+  flavored_french_fries,
   flavored_teas_and_coffee,
   fresh_flavored_lemonade,
   pho,
@@ -17,17 +19,22 @@ import {
 export default function Home() {
   return (
     <>
+      <MenuList menuSection="Buy 1, Get 1 Free" menuItems={buy_1_get_1_free} />
+      <MenuList
+        menuSection="Flavored French Fries"
+        menuItems={flavored_french_fries}
+      />
       <MenuList menuSection="Appetizers" menuItems={appetizers} />
       <MenuList menuSection="Pho" menuItems={pho} />
       <MenuList
         menuSection="Banh Mi (Vietnamese Sandwiches)"
-        menuItems={banh_mi__vietnamese_sandwich}
+        menuItems={banh_mi_vietnamese_sandwich}
       />
       <MenuList menuSection="Rice Plates" menuItems={rice_plate} />
       <MenuList menuSection="Vermicelli" menuItems={vermicelli} />
       <MenuList
         menuSection="Croissant Sandwiches"
-        menuItems={all_day_breakfast__croissant_sandwiches}
+        menuItems={all_day_breakfast_croissant_sandwiches}
       />
       <MenuList menuSection="Salad" menuItems={salad} />
       <MenuList menuSection="Vegan" menuItems={vegan} />
