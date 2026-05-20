@@ -11,26 +11,43 @@ const OUT_TSX = "src/components/items.tsx";
 const IMG_DIR = "public/menu";
 const IMG_WEB_PREFIX = "/menu";
 
-function fetchUrl(url) {
+function fetchUrl(url, maxRedirects = 5) {
   return new Promise((resolve, reject) => {
-    const req = https.get(
-      url,
-      { headers: { "User-Agent": USER_AGENT }, timeout: 30000 },
-      (res) => {
-        if (res.statusCode !== 200) {
-          reject(new Error(`HTTP ${res.statusCode} for ${url}`));
-          return;
-        }
-        const chunks = [];
-        res.on("data", (c) => chunks.push(c));
-        res.on("end", () => resolve(Buffer.concat(chunks).toString("utf8")));
-        res.on("error", reject);
-      },
-    );
-    req.on("error", reject);
-    req.on("timeout", () => {
-      req.destroy(new Error("timeout"));
-    });
+    const doRequest = (currentUrl, remaining) => {
+      const req = https.get(
+        currentUrl,
+        { headers: { "User-Agent": USER_AGENT }, timeout: 30000 },
+        (res) => {
+          if (
+            res.statusCode >= 300 &&
+            res.statusCode < 400 &&
+            res.headers.location
+          ) {
+            if (remaining <= 0) {
+              reject(new Error(`too many redirects starting at ${url}`));
+              return;
+            }
+            res.resume();
+            const next = new URL(res.headers.location, currentUrl).toString();
+            doRequest(next, remaining - 1);
+            return;
+          }
+          if (res.statusCode !== 200) {
+            reject(new Error(`HTTP ${res.statusCode} for ${currentUrl}`));
+            return;
+          }
+          const chunks = [];
+          res.on("data", (c) => chunks.push(c));
+          res.on("end", () => resolve(Buffer.concat(chunks).toString("utf8")));
+          res.on("error", reject);
+        },
+      );
+      req.on("error", reject);
+      req.on("timeout", () => {
+        req.destroy(new Error("timeout"));
+      });
+    };
+    doRequest(url, maxRedirects);
   });
 }
 
