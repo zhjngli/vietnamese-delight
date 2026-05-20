@@ -3,7 +3,6 @@ import {
   all_day_breakfast_croissant_sandwiches,
   appetizers,
   banh_mi_vietnamese_sandwich,
-  buy_1_get_1_free,
   dessert,
   drinks,
   flavored_french_fries,
@@ -19,7 +18,6 @@ import {
 export default function Home() {
   return (
     <>
-      <MenuList menuSection="Buy 1, Get 1 Free" menuItems={buy_1_get_1_free} />
       <MenuList
         menuSection="Flavored French Fries"
         menuItems={flavored_french_fries}
