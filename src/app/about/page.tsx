@@ -13,12 +13,13 @@ export default function AboutPage() {
         <br />
         <Link
           target="_blank"
-          href="https://maps.app.goo.gl/qMepXDGC1gnZMgHD7"
+          href="https://www.google.com/maps/search/?api=1&query=1842+W+Washington+Blvd%2C+Los+Angeles%2C+CA+90007"
           rel="noopener noreferrer"
           className="hover:underline"
         >
-          358 W 38th St Unit 1<br />
-          Los Angeles, CA 90037
+          1842 W Washington Blvd
+          <br />
+          Los Angeles, CA 90007
         </Link>
       </p>
     </>

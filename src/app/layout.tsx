@@ -43,7 +43,7 @@ export default function RootLayout({
             <h2 className="text-xl font-bold mb-4 px-2">
               <Link
                 target="_blank"
-                href="https://www.ubereats.com/store/vietnamese-delight-358-w-38th-st/5qOZv-i2RL6G2blPIkGCAw?diningMode=DELIVERY"
+                href="https://www.ubereats.com/store/vietnamese-delight-w-washington-blvd/5qOZv-i2RL6G2blPIkGCAw?diningMode=DELIVERY"
                 rel="noopener noreferrer"
                 className="hover:underline"
               >

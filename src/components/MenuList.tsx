@@ -45,6 +45,11 @@ export default function MenuList({ menuSection, menuItems }: MenuListProps) {
                     {menuItem.name}
                   </span>
                   <span className="block">${menuItem.price.toFixed(2)}</span>
+                  {menuItem.description && (
+                    <span className="block text-sm text-gray-600">
+                      {menuItem.description}
+                    </span>
+                  )}
                 </div>
               </div>
             </div>
